@@ -69,23 +69,22 @@ def convert(in_path: Path, out_path: Path):
         if vsc in colors:
             scheme["globals"][sb] = to_six(colors[vsc])
 
-    seen = set()
+    # VS Code applies tokenColors in order: the last setting for a given
+    # scope wins. Sublime also uses later-wins, but only when selectors are
+    # not duplicated. Expand list scopes into individual selectors and keep
+    # the last setting per selector so Sublime matches VS Code exactly.
+    final_settings = {}
     for r in token_colors:
         sc = r.get("scope")
         if not sc:
             continue
-        key = sc if isinstance(sc, str) else tuple(sc)
-        if key in seen:
-            continue
-        seen.add(key)
-        # Sublime/TextMate scope selectors use COMMA to separate alternative
-        # scopes (==  OR semantics). VS Code's tokenColors uses a list for the
-        # same purpose. join with ", " — NOT a space, because a space in a
-        # Sublime selector means nested hierarchy (a inside b), which would
-        # make these rules almost never match.
-        scope_str = sc if isinstance(sc, str) else ", ".join(sc)
+        selectors = [sc] if isinstance(sc, str) else sc
         st = r.get("settings", {})
-        rule = {"scope": scope_str}
+        for sel in selectors:
+            final_settings[sel] = st
+
+    for sel, st in final_settings.items():
+        rule = {"scope": sel}
         if st.get("foreground"):
             rule["foreground"] = to_six(st["foreground"])
         if st.get("background"):
@@ -112,6 +111,14 @@ def convert(in_path: Path, out_path: Path):
         if fs:
             rule["font_style"] = fs
         scheme["rules"].append(rule)
+    # C# compatibility: Sublime scopes the `in` in `foreach (var x in y)` as
+    # keyword.operator.iteration.in.cs, while VS Code treats it as a plain
+    # keyword (same color as int/double). Map it to the keyword color so the
+    # two editors agree.
+    is_dark = data.get("type") == "dark"
+    keyword_color = "#00AA00" if is_dark else "#CF222E"
+    scheme["rules"].append({"scope": "keyword.operator.iteration.in.cs", "foreground": to_six(keyword_color)})
+
 
     out_path.write_text(json.dumps(scheme, indent=2, ensure_ascii=False),
                         encoding="utf-8")

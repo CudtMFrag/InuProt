@@ -178,19 +178,29 @@ def convert(in_path: Path, out_path: Path):
     parts.append(f'  <key>name</key><string>{esc(name)}</string>\n')
     parts.append('  <key>settings</key>\n  <array>\n')
     parts.append(build_global(colors))
-    seen = set()
+    # Keep only the last setting per selector to match VS Code last-wins
+    # semantics. Expand list scopes into individual selectors first.
+    final_settings = {}
     for r in token_colors:
         sc = r.get("scope")
         if not sc: continue
-        key = sc if isinstance(sc, str) else tuple(sc)
-        if key in seen: continue
-        seen.add(key)
-        parts.append(build_rule(sc, r.get("settings", {})))
+        selectors = [sc] if isinstance(sc, str) else sc
+        for sel in selectors:
+            final_settings[sel] = r.get("settings", {})
+
+    for sc, st in final_settings.items():
+        parts.append(build_rule(sc, st))
     for st_type, color in sem.items():
         line = build_sem_rule(st_type, color)
         if line: parts.append(line)
     parts.append('  </array>\n')
     parts.append(f'  <key>uuid</key><string>{str(uuid.uuid4())}</string>\n')
+    # C# compatibility for `in` in foreach (Sublime scopes it as
+    # keyword.operator.iteration.in.cs; VS Code colors it as a keyword).
+    is_dark = data.get("type") == "dark"
+    keyword_color = "#00AA00" if is_dark else "#CF222E"
+    parts.append(build_rule("keyword.operator.iteration.in.cs", {"foreground": keyword_color}))
+
     parts.append('</dict>\n</plist>\n')
 
     out_path.write_text("".join(parts), encoding="utf-8")
