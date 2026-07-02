@@ -3,6 +3,33 @@
 A two-variant colour scheme pack, published for **Visual Studio Code** and
 **Sublime Text**.
 
+## Who this is for
+
+InuProt is tuned for **readers with red-green color vision deficiencies**
+(red-green color blindness), specifically:
+
+- **Protanomaly / protanopia** — red-weak or red-blind vision
+- **Deuteranomaly / deuteranopia** — green-weak or green-blind vision
+- Anyone whose eyes find saturated neon greens painful or hard to read
+
+In typical syntax themes the *keyword green* and the *control-flow / string /
+number orange* sit close in both hue and luminance, so they merge for these
+readers. InuProt fixes that pairing: the green ramp is dimmed away from the
+orange in the dark variant, and the light variant uses a green-tinted chrome
+that stays distinguishable.
+
+> If you searched for *colorblind theme*, *protanopia theme*, *red-green
+> colorblind color scheme*, *high-contrast accessible VS Code theme*, or
+> *accessible Sublime Text theme* — this project is for you.
+
+Keywords: colorblind, colorblind-friendly, protanopia, protanomaly,
+deuteranopia, deuteranomaly, red-green color vision deficiency, accessible,
+accessibility, high contrast, VS Code theme, Sublime Text color scheme.
+
+---
+
+## Variants
+
 | Variant        | Surface       | Origins                                                            |
 |----------------|---------------|-------------------------------------------------------------------|
 | **InuProt Dark**  | black + ink-green   | Forked from [Human High Contrast](https://github.com/tom-f-hall/human-theme-vscode) by Tom Hall, with the green ramp dimmed for better separation from the orange control-flow / string color. |
