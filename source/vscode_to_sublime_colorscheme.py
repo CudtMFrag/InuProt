@@ -84,16 +84,6 @@ def convert(in_path: Path, out_path: Path):
         for sel in selectors:
             final_settings[sel] = st
 
-    for sel, st in final_settings.items():
-        rule = {"scope": sel}
-        if st.get("foreground"):
-            rule["foreground"] = to_six(st["foreground"])
-        if st.get("background"):
-            rule["background"] = to_six(st["background"])
-        fs = fmt_style(st.get("fontStyle"))
-        if fs:
-            rule["font_style"] = fs
-        scheme["rules"].append(rule)
 
     for st_type, color in sem.items():
         scope = sem_to_scope(st_type)
@@ -109,6 +99,17 @@ def convert(in_path: Path, out_path: Path):
         rule = {"scope": scope}
         if fg:
             rule["foreground"] = to_six(fg)
+        if fs:
+            rule["font_style"] = fs
+        scheme["rules"].append(rule)
+
+    for sel, st in final_settings.items():
+        rule = {"scope": sel}
+        if st.get("foreground"):
+            rule["foreground"] = to_six(st["foreground"])
+        if st.get("background"):
+            rule["background"] = to_six(st["background"])
+        fs = fmt_style(st.get("fontStyle"))
         if fs:
             rule["font_style"] = fs
         scheme["rules"].append(rule)

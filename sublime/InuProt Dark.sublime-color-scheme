@@ -27,6 +27,100 @@
     },
     {
       "scope": "keyword.control",
+      "foreground": "#00AA00",
+      "font_style": "bold"
+    },
+    {
+      "scope": "keyword.operator",
+      "foreground": "#00CCEE"
+    },
+    {
+      "scope": "storage.type",
+      "foreground": "#00AA00"
+    },
+    {
+      "scope": "entity.name.type",
+      "foreground": "#00DDFF",
+      "font_style": "bold"
+    },
+    {
+      "scope": "entity.name.class",
+      "foreground": "#00DDFF",
+      "font_style": "bold"
+    },
+    {
+      "scope": "entity.name.interface",
+      "foreground": "#00DDFF",
+      "font_style": "bold"
+    },
+    {
+      "scope": "entity.name.function",
+      "foreground": "#009900"
+    },
+    {
+      "scope": "entity.name.function",
+      "foreground": "#009900"
+    },
+    {
+      "scope": "entity.name.function.method",
+      "foreground": "#009900"
+    },
+    {
+      "scope": "variable.other.property",
+      "foreground": "#FFFFFF"
+    },
+    {
+      "scope": "variable.parameter",
+      "foreground": "#FFFFFF"
+    },
+    {
+      "scope": "variable",
+      "foreground": "#FFFFFF"
+    },
+    {
+      "scope": "variable.language",
+      "foreground": "#FFFFFF"
+    },
+    {
+      "scope": "constant.numeric",
+      "foreground": "#FFCC00"
+    },
+    {
+      "scope": "string",
+      "foreground": "#FFCC00"
+    },
+    {
+      "scope": "constant.language.boolean",
+      "foreground": "#EEBB00"
+    },
+    {
+      "scope": "constant.other",
+      "foreground": "#FFCC00"
+    },
+    {
+      "scope": "support.function.macro",
+      "foreground": "#EE0000"
+    },
+    {
+      "scope": "comment",
+      "foreground": "#888888",
+      "font_style": "italic"
+    },
+    {
+      "scope": "entity.name.namespace",
+      "foreground": "#009900"
+    },
+    {
+      "scope": "entity.name.module",
+      "foreground": "#009900"
+    },
+    {
+      "scope": "keyword",
+      "foreground": "#00AA00",
+      "font_style": "bold"
+    },
+    {
+      "scope": "keyword.control",
       "foreground": "#FFCC00",
       "font_style": "bold"
     },
@@ -1346,100 +1440,6 @@
     {
       "scope": "keyword.operator.expression.delete",
       "foreground": "#00AA00"
-    },
-    {
-      "scope": "keyword",
-      "foreground": "#00AA00",
-      "font_style": "bold"
-    },
-    {
-      "scope": "keyword.control",
-      "foreground": "#00AA00",
-      "font_style": "bold"
-    },
-    {
-      "scope": "keyword.operator",
-      "foreground": "#00CCEE"
-    },
-    {
-      "scope": "storage.type",
-      "foreground": "#00AA00"
-    },
-    {
-      "scope": "entity.name.type",
-      "foreground": "#00DDFF",
-      "font_style": "bold"
-    },
-    {
-      "scope": "entity.name.class",
-      "foreground": "#00DDFF",
-      "font_style": "bold"
-    },
-    {
-      "scope": "entity.name.interface",
-      "foreground": "#00DDFF",
-      "font_style": "bold"
-    },
-    {
-      "scope": "entity.name.function",
-      "foreground": "#009900"
-    },
-    {
-      "scope": "entity.name.function",
-      "foreground": "#009900"
-    },
-    {
-      "scope": "entity.name.function.method",
-      "foreground": "#009900"
-    },
-    {
-      "scope": "variable.other.property",
-      "foreground": "#FFFFFF"
-    },
-    {
-      "scope": "variable.parameter",
-      "foreground": "#FFFFFF"
-    },
-    {
-      "scope": "variable",
-      "foreground": "#FFFFFF"
-    },
-    {
-      "scope": "variable.language",
-      "foreground": "#FFFFFF"
-    },
-    {
-      "scope": "constant.numeric",
-      "foreground": "#FFCC00"
-    },
-    {
-      "scope": "string",
-      "foreground": "#FFCC00"
-    },
-    {
-      "scope": "constant.language.boolean",
-      "foreground": "#EEBB00"
-    },
-    {
-      "scope": "constant.other",
-      "foreground": "#FFCC00"
-    },
-    {
-      "scope": "support.function.macro",
-      "foreground": "#EE0000"
-    },
-    {
-      "scope": "comment",
-      "foreground": "#888888",
-      "font_style": "italic"
-    },
-    {
-      "scope": "entity.name.namespace",
-      "foreground": "#009900"
-    },
-    {
-      "scope": "entity.name.module",
-      "foreground": "#009900"
     },
     {
       "scope": "keyword.operator.iteration.in.cs",
