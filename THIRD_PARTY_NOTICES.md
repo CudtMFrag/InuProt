@@ -53,30 +53,30 @@ SOFTWARE.
 
 ---
 
-## 2. Visual Studio Code — built-in theme-defaults (2026 Light + chain)
+## 2. GitHub VS Code Theme — GitHub Light Colorblind
 
-InuProt Light is a derivative of VS Code's built-in **2026 Light** theme,
-along with its include chain `light_modern.json → light_plus.json →
-light_vs.json`, which are part of the `theme-defaults` extension shipped with
-VS Code.
+InuProt Light is a derivative of the **GitHub Light Colorblind** theme from the
+GitHub VS Code Theme extension.
 
-- Upstream repository: https://github.com/microsoft/vscode
+- Upstream repository: https://github.com/primer/github-vscode-theme
 - Upstream license: MIT
-- Used in: `vscode/themes/inuprot-light.json` and the bundled
-  `light_modern.json`, `light_plus.json`, `light_vs.json`, and the Sublime
-  Text derivatives `sublime/InuProt Light.tmTheme` and
+- Copyright: (c) 2020 Primer
+- Used in: `vscode/themes/inuprot-light.json` and the Sublime Text derivatives
+  `sublime/InuProt Light.tmTheme` and
   `sublime/InuProt Light.sublime-color-scheme`.
 
 Modifications made in InuProt Light: only background surfaces were retinted
-(`#FFFFFF → #edf3eb` for editor/gutter/active tab; `#FAFAFD → #e6eee4` for
-chrome surfaces; `#F0F0F3 → #dfe7dd` for sticky-hover/no-folder). Syntax
-token colors are inherited unchanged from the upstream include chain.
+(`#FFFFFF → #edf3eb` for editor/chrome surfaces; `#f6f8fa → #e6eee4` for
+secondary chrome; `#eaeef2`/`#f3f4f6`/`#ebecf0` → `#dfe7dd` for hover states).
+Syntax token colors and all non-background UI colors are inherited unchanged
+from GitHub Light Colorblind.
 
-Original notice (from `microsoft/vscode`):
+Original notice (from `primer/github-vscode-theme`):
 
 ```
-Copyright (c) Electron contributors
-Copyright (c) 2013-2020 GitHub Inc.
+MIT License
+
+Copyright (c) 2020 Primer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

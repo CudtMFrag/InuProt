@@ -64,9 +64,9 @@ orange/yellow control-flow + string color. Source changes are in
 
 Everything else (UI chrome, terminal ANSI, token rules) is unchanged.
 
-### InuProt Light (from VS Code 2026 Light)
+### InuProt Light (from GitHub Light Colorblind)
 Only **background surfaces** were retinted to a soft green. Syntax token colors
-are inherited unchanged via the original include chain. Source changes are in
+are inherited unchanged from GitHub Light Colorblind. Source changes are in
 [`source/changes-light.md`](source/changes-light.md); in short:
 
 | Surface                              | Before      | After       |
@@ -161,6 +161,5 @@ for the full notices.
 
 - **Human Theme** (InuProt Dark upstream)
   © Tom Hall, MIT License. https://github.com/tom-f-hall/human-theme-vscode
-- **VS Code theme-defaults** (InuProt Light upstream, includes 2026 Light,
-  Light Modern, Light+, Light Visual Studio)
-  © Microsoft / GitHub Inc., MIT License. https://github.com/microsoft/vscode
+- **GitHub VS Code Theme** (InuProt Light upstream, GitHub Light Colorblind)
+  © Primer / GitHub, MIT License. https://github.com/primer/github-vscode-theme
