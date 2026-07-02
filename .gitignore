@@ -1,0 +1,15 @@
+# build artifacts
+*.vsix
+node_modules/
+out/
+__pycache__/
+*.pyc
+
+# editor
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# os
+.DS_Store
+Thumbs.db
