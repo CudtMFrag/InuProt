@@ -87,7 +87,7 @@ color separates from the orange control-flow & string color:
 
 | InuProt Dark | InuProt Light |
 |--------------|---------------|
-| ![InuProt Dark](previews/inuprot-dark.png) | ![InuProt Light](previews/inuprot-light.png) |
+| ![InuProt Dark](previews/inuprot-dark.png?v=2) | ![InuProt Light](previews/inuprot-light.png?v=2) |
 
 > These were rendered from a hand-annotated code snippet using the actual
 > InuProt token colors. To capture your own: open
