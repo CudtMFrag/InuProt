@@ -2882,8 +2882,6 @@
         <key>foreground</key><string>#009900</string>
       </dict>
     </dict>
-  </array>
-  <key>uuid</key><string>875681ca-d50c-4a2e-a0b0-292f98c355ef</string>
     <dict>
       <key>name</key><string>keyword.operator.iteration.in.cs</string>
       <key>scope</key><string>keyword.operator.iteration.in.cs</string>
@@ -2892,5 +2890,7 @@
         <key>foreground</key><string>#00AA00</string>
       </dict>
     </dict>
+  </array>
+  <key>uuid</key><string>a5ef9555-2668-4e30-bc5a-70779afe432c</string>
 </dict>
 </plist>
