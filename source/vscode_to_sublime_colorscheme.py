@@ -26,6 +26,7 @@ GLOBAL_MAP = [
     ("editor.lineHighlightBackground", "line_highlight"),
     ("editorGutter.foreground",       "gutter"),
     ("editorLineNumber.foreground",   "gutter_foreground"),
+    ("editorLineNumber.activeForeground", "gutter_foreground_highlight"),
     ("editorWhitespace.foreground",    "invisibles"),
     ("editorIndentGuide.background",    "guide"),
     ("editorIndentGuide.activeBackground", "active_guide"),

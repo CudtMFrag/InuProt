@@ -11,6 +11,7 @@
     "find_highlight_inactive": "#FAE17D",
     "line_highlight": "#EAEEF2",
     "gutter_foreground": "#8C959F",
+    "gutter_foreground_highlight": "#24292F",
     "invisibles": "#AFB8C1",
     "guide": "#24292F",
     "active_guide": "#24292F",
