@@ -82,12 +82,13 @@ still read cleanly on the green chrome.
 
 ## Previews
 
-Open [`previews/inuprot-preview-sample.ts`](previews/inuprot-preview-sample.ts) in VS Code
-with the theme active, screenshot the editor, and drop the PNGs into
-`previews/` as `inuprot-dark.png` and `inuprot-light.png`.
+| InuProt Dark | InuProt Light |
+|--------------|---------------|
+| ![InuProt Dark](previews/inuprot-dark.png) | ![InuProt Light](previews/inuprot-light.png) |
 
-> Screenshots are maintained manually — generated previews don't capture
-> real VS Code rendering differences (font rendering, gutter, scrollbar, etc.).
+> Captured manually from real VS Code. To update: open
+[`previews/inuprot-preview-sample.ts`](previews/inuprot-preview-sample.ts) with the
+theme active, screenshot, and replace the PNGs.
 
 ## Install
 
