@@ -45,7 +45,7 @@
     </dict>
     <dict>
       <key>name</key><string>Control keyword</string>
-      <key>scope</key><string>keyword.control keyword.control.catch keyword.control.exception</string>
+      <key>scope</key><string>keyword.control, keyword.control.catch, keyword.control.exception</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#FFCC00</string>
@@ -71,7 +71,7 @@
     </dict>
     <dict>
       <key>name</key><string>keyword.operator.type.annotation</string>
-      <key>scope</key><string>keyword.operator.type.annotation keyword.operator.assignment.type</string>
+      <key>scope</key><string>keyword.operator.type.annotation, keyword.operator.assignment.type</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00CCEE</string>
@@ -79,7 +79,7 @@
     </dict>
     <dict>
       <key>name</key><string>keyword.declaration</string>
-      <key>scope</key><string>keyword.declaration storage.type</string>
+      <key>scope</key><string>keyword.declaration, storage.type</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00AA00</string>
@@ -88,7 +88,7 @@
     </dict>
     <dict>
       <key>name</key><string>keyword.import</string>
-      <key>scope</key><string>keyword.import keyword.export</string>
+      <key>scope</key><string>keyword.import, keyword.export</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00AA00</string>
@@ -105,7 +105,7 @@
     </dict>
     <dict>
       <key>name</key><string>Boolean</string>
-      <key>scope</key><string>constant.language.boolean constant.language</string>
+      <key>scope</key><string>constant.language.boolean, constant.language</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#EEBB00</string>
@@ -121,7 +121,7 @@
     </dict>
     <dict>
       <key>name</key><string>Type name</string>
-      <key>scope</key><string>entity.name.type entity.name.class entity.name.interface</string>
+      <key>scope</key><string>entity.name.type, entity.name.class, entity.name.interface</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00DDFF</string>
@@ -138,7 +138,7 @@
     </dict>
     <dict>
       <key>name</key><string>Parameter</string>
-      <key>scope</key><string>variable.parameter variable.other.property</string>
+      <key>scope</key><string>variable.parameter, variable.other.property</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#FFFFFF</string>
@@ -154,7 +154,7 @@
     </dict>
     <dict>
       <key>name</key><string>Decorator</string>
-      <key>scope</key><string>meta.decorator storage.modifier.decorator</string>
+      <key>scope</key><string>meta.decorator, storage.modifier.decorator</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#EE0000</string>
@@ -163,7 +163,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.name.tag.html</string>
-      <key>scope</key><string>entity.name.tag.html entity.name.tag.jsx entity.name.tag.tsx</string>
+      <key>scope</key><string>entity.name.tag.html, entity.name.tag.jsx, entity.name.tag.tsx</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#FFCC00</string>
@@ -172,7 +172,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.other.attribute-name.html</string>
-      <key>scope</key><string>entity.other.attribute-name.html entity.other.attribute-name.jsx entity.other.attribute-name.tsx</string>
+      <key>scope</key><string>entity.other.attribute-name.html, entity.other.attribute-name.jsx, entity.other.attribute-name.tsx</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#DDAA00</string>
@@ -180,7 +180,7 @@
     </dict>
     <dict>
       <key>name</key><string>punctuation.definition.tag</string>
-      <key>scope</key><string>punctuation.definition.tag punctuation.definition.tag.begin punctuation.definition.tag.end</string>
+      <key>scope</key><string>punctuation.definition.tag, punctuation.definition.tag.begin, punctuation.definition.tag.end</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#CCAA00</string>
@@ -204,7 +204,7 @@
     </dict>
     <dict>
       <key>name</key><string>meta.object-literal.key</string>
-      <key>scope</key><string>meta.object-literal.key support.type.property-name.json</string>
+      <key>scope</key><string>meta.object-literal.key, support.type.property-name.json</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#009900</string>
@@ -238,7 +238,7 @@
     </dict>
     <dict>
       <key>name</key><string>meta.tag</string>
-      <key>scope</key><string>meta.tag meta.tag.sgml</string>
+      <key>scope</key><string>meta.tag, meta.tag.sgml</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#EE0000</string>
@@ -246,7 +246,7 @@
     </dict>
     <dict>
       <key>name</key><string>markup.heading.markdown</string>
-      <key>scope</key><string>markup.heading.markdown markup.heading.setext</string>
+      <key>scope</key><string>markup.heading.markdown, markup.heading.setext</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00AA00</string>
@@ -273,7 +273,7 @@
     </dict>
     <dict>
       <key>name</key><string>markup.heading.3.markdown</string>
-      <key>scope</key><string>markup.heading.3.markdown markup.heading.4.markdown</string>
+      <key>scope</key><string>markup.heading.3.markdown, markup.heading.4.markdown</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00DDFF</string>
@@ -282,7 +282,7 @@
     </dict>
     <dict>
       <key>name</key><string>markup.heading.5.markdown</string>
-      <key>scope</key><string>markup.heading.5.markdown markup.heading.6.markdown</string>
+      <key>scope</key><string>markup.heading.5.markdown, markup.heading.6.markdown</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00CCEE</string>
@@ -335,7 +335,7 @@
     </dict>
     <dict>
       <key>name</key><string>markup.underline.link.markdown</string>
-      <key>scope</key><string>markup.underline.link.markdown markup.underline.link.image.markdown</string>
+      <key>scope</key><string>markup.underline.link.markdown, markup.underline.link.image.markdown</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00CCEE</string>
@@ -343,7 +343,7 @@
     </dict>
     <dict>
       <key>name</key><string>string.other.link.title.markdown</string>
-      <key>scope</key><string>string.other.link.title.markdown string.other.link.description.markdown</string>
+      <key>scope</key><string>string.other.link.title.markdown, string.other.link.description.markdown</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#009900</string>
@@ -359,7 +359,7 @@
     </dict>
     <dict>
       <key>name</key><string>markup.fenced_code.block.markdown</string>
-      <key>scope</key><string>markup.fenced_code.block.markdown markup.inline.raw.markdown</string>
+      <key>scope</key><string>markup.fenced_code.block.markdown, markup.inline.raw.markdown</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#EEBB00</string>
@@ -383,7 +383,7 @@
     </dict>
     <dict>
       <key>name</key><string>markup.list.unnumbered.markdown</string>
-      <key>scope</key><string>markup.list.unnumbered.markdown markup.list.numbered.markdown</string>
+      <key>scope</key><string>markup.list.unnumbered.markdown, markup.list.numbered.markdown</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#FFFFFF</string>
@@ -417,7 +417,7 @@
     </dict>
     <dict>
       <key>name</key><string>meta.embedded.block.frontmatter</string>
-      <key>scope</key><string>meta.embedded.block.frontmatter punctuation.definition.tag.frontmatter</string>
+      <key>scope</key><string>meta.embedded.block.frontmatter, punctuation.definition.tag.frontmatter</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#888888</string>
@@ -425,7 +425,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.name.tag.css</string>
-      <key>scope</key><string>entity.name.tag.css entity.name.tag.scss entity.name.tag.less</string>
+      <key>scope</key><string>entity.name.tag.css, entity.name.tag.scss, entity.name.tag.less</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#FFCC00</string>
@@ -434,7 +434,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.other.attribute-name.class.css</string>
-      <key>scope</key><string>entity.other.attribute-name.class.css entity.other.attribute-name.class.scss</string>
+      <key>scope</key><string>entity.other.attribute-name.class.css, entity.other.attribute-name.class.scss</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00DDFF</string>
@@ -443,7 +443,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.other.attribute-name.id.css</string>
-      <key>scope</key><string>entity.other.attribute-name.id.css entity.other.attribute-name.id.scss</string>
+      <key>scope</key><string>entity.other.attribute-name.id.css, entity.other.attribute-name.id.scss</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00AA00</string>
@@ -452,7 +452,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.other.attribute-name.pseudo-class.css</string>
-      <key>scope</key><string>entity.other.attribute-name.pseudo-class.css entity.other.attribute-name.pseudo-element.css</string>
+      <key>scope</key><string>entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#009900</string>
@@ -460,7 +460,7 @@
     </dict>
     <dict>
       <key>name</key><string>support.type.property-name.css</string>
-      <key>scope</key><string>support.type.property-name.css support.type.property-name.scss meta.property-name.css</string>
+      <key>scope</key><string>support.type.property-name.css, support.type.property-name.scss, meta.property-name.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00CCEE</string>
@@ -468,7 +468,7 @@
     </dict>
     <dict>
       <key>name</key><string>support.constant.property-value.css</string>
-      <key>scope</key><string>support.constant.property-value.css meta.property-value.css</string>
+      <key>scope</key><string>support.constant.property-value.css, meta.property-value.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#EEBB00</string>
@@ -476,7 +476,7 @@
     </dict>
     <dict>
       <key>name</key><string>constant.numeric.css</string>
-      <key>scope</key><string>constant.numeric.css keyword.other.unit.css</string>
+      <key>scope</key><string>constant.numeric.css, keyword.other.unit.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#FFCC00</string>
@@ -484,7 +484,7 @@
     </dict>
     <dict>
       <key>name</key><string>support.constant.color.css</string>
-      <key>scope</key><string>support.constant.color.css constant.other.color.css</string>
+      <key>scope</key><string>support.constant.color.css, constant.other.color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#FFCC00</string>
@@ -500,7 +500,7 @@
     </dict>
     <dict>
       <key>name</key><string>variable.scss</string>
-      <key>scope</key><string>variable.scss variable.less variable.parameter.scss</string>
+      <key>scope</key><string>variable.scss, variable.less, variable.parameter.scss</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#EE0000</string>
@@ -508,7 +508,7 @@
     </dict>
     <dict>
       <key>name</key><string>keyword.control.at-rule.scss</string>
-      <key>scope</key><string>keyword.control.at-rule.scss keyword.control.at-rule.css</string>
+      <key>scope</key><string>keyword.control.at-rule.scss, keyword.control.at-rule.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00AA00</string>
@@ -549,7 +549,7 @@
     </dict>
     <dict>
       <key>name</key><string>punctuation.definition.anchor.yaml</string>
-      <key>scope</key><string>punctuation.definition.anchor.yaml punctuation.definition.alias.yaml</string>
+      <key>scope</key><string>punctuation.definition.anchor.yaml, punctuation.definition.alias.yaml</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#EE0000</string>
@@ -565,7 +565,7 @@
     </dict>
     <dict>
       <key>name</key><string>support.function.builtin.shell</string>
-      <key>scope</key><string>support.function.builtin.shell support.function.external.shell</string>
+      <key>scope</key><string>support.function.builtin.shell, support.function.external.shell</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#009900</string>
@@ -605,7 +605,7 @@
     </dict>
     <dict>
       <key>name</key><string>keyword.other.sql</string>
-      <key>scope</key><string>keyword.other.sql keyword.other.DML.sql keyword.other.DDL.sql</string>
+      <key>scope</key><string>keyword.other.sql, keyword.other.DML.sql, keyword.other.DDL.sql</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00AA00</string>
@@ -623,7 +623,7 @@
     </dict>
     <dict>
       <key>name</key><string>support.function.aggregate.sql</string>
-      <key>scope</key><string>support.function.aggregate.sql support.function.scalar.sql</string>
+      <key>scope</key><string>support.function.aggregate.sql, support.function.scalar.sql</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#009900</string>
@@ -689,7 +689,7 @@
     </dict>
     <dict>
       <key>name</key><string>support.type.object.module.js</string>
-      <key>scope</key><string>support.type.object.module.js support.type.object.module.ts</string>
+      <key>scope</key><string>support.type.object.module.js, support.type.object.module.ts</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00DDFF</string>
@@ -697,7 +697,7 @@
     </dict>
     <dict>
       <key>name</key><string>support.variable.property.js</string>
-      <key>scope</key><string>support.variable.property.js support.variable.property.ts</string>
+      <key>scope</key><string>support.variable.property.js, support.variable.property.ts</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#FFFFFF</string>
@@ -705,7 +705,7 @@
     </dict>
     <dict>
       <key>name</key><string>variable.other.constant.js</string>
-      <key>scope</key><string>variable.other.constant.js variable.other.constant.ts</string>
+      <key>scope</key><string>variable.other.constant.js, variable.other.constant.ts</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#FFCC00</string>
@@ -730,7 +730,7 @@
     </dict>
     <dict>
       <key>name</key><string>keyword.control.as.ts</string>
-      <key>scope</key><string>keyword.control.as.ts keyword.control.from.ts</string>
+      <key>scope</key><string>keyword.control.as.ts, keyword.control.from.ts</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00AA00</string>
@@ -739,7 +739,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.other.attribute-name.js.jsx</string>
-      <key>scope</key><string>entity.other.attribute-name.js.jsx entity.other.attribute-name.tsx</string>
+      <key>scope</key><string>entity.other.attribute-name.js.jsx, entity.other.attribute-name.tsx</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#DDAA00</string>
@@ -747,7 +747,7 @@
     </dict>
     <dict>
       <key>name</key><string>support.class.component.js</string>
-      <key>scope</key><string>support.class.component.js support.class.component.tsx</string>
+      <key>scope</key><string>support.class.component.js, support.class.component.tsx</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00DDFF</string>
@@ -780,7 +780,7 @@
     </dict>
     <dict>
       <key>name</key><string>Regexp</string>
-      <key>scope</key><string>string.regexp constant.other.character-class.regexp</string>
+      <key>scope</key><string>string.regexp, constant.other.character-class.regexp</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#EE0000</string>
@@ -796,7 +796,7 @@
     </dict>
     <dict>
       <key>name</key><string>keyword.control.anchor.regexp</string>
-      <key>scope</key><string>keyword.control.anchor.regexp punctuation.definition.group.regexp</string>
+      <key>scope</key><string>keyword.control.anchor.regexp, punctuation.definition.group.regexp</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00AA00</string>
@@ -854,7 +854,7 @@
     </dict>
     <dict>
       <key>name</key><string>keyword.other.special-method.dockerfile</string>
-      <key>scope</key><string>keyword.other.special-method.dockerfile keyword.operator.flag.dockerfile</string>
+      <key>scope</key><string>keyword.other.special-method.dockerfile, keyword.operator.flag.dockerfile</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00AA00</string>
@@ -871,7 +871,7 @@
     </dict>
     <dict>
       <key>name</key><string>keyword.other.definition.ini</string>
-      <key>scope</key><string>keyword.other.definition.ini entity.name.section.group-title.ini</string>
+      <key>scope</key><string>keyword.other.definition.ini, entity.name.section.group-title.ini</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#009900</string>
@@ -888,7 +888,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.name.tag.toml</string>
-      <key>scope</key><string>entity.name.tag.toml support.type.property-name.table.toml</string>
+      <key>scope</key><string>entity.name.tag.toml, support.type.property-name.table.toml</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00DDFF</string>
@@ -947,7 +947,7 @@
     </dict>
     <dict>
       <key>name</key><string>storage.type.rust</string>
-      <key>scope</key><string>storage.type.rust entity.name.type.rust</string>
+      <key>scope</key><string>storage.type.rust, entity.name.type.rust</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00DDFF</string>
@@ -973,7 +973,7 @@
     </dict>
     <dict>
       <key>name</key><string>storage.modifier.java</string>
-      <key>scope</key><string>storage.modifier.java storage.type.annotation.java</string>
+      <key>scope</key><string>storage.modifier.java, storage.type.annotation.java</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#EE0000</string>
@@ -989,7 +989,7 @@
     </dict>
     <dict>
       <key>name</key><string>storage.modifier.pointer.c</string>
-      <key>scope</key><string>storage.modifier.pointer.c storage.modifier.reference.cpp</string>
+      <key>scope</key><string>storage.modifier.pointer.c, storage.modifier.reference.cpp</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00CCEE</string>
@@ -997,7 +997,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.name.function.preprocessor.c</string>
-      <key>scope</key><string>entity.name.function.preprocessor.c entity.name.function.preprocessor.cpp</string>
+      <key>scope</key><string>entity.name.function.preprocessor.c, entity.name.function.preprocessor.cpp</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#EE0000</string>
@@ -1038,7 +1038,7 @@
     </dict>
     <dict>
       <key>name</key><string>variable.other.constant.ruby</string>
-      <key>scope</key><string>variable.other.constant.ruby support.class.ruby</string>
+      <key>scope</key><string>variable.other.constant.ruby, support.class.ruby</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00DDFF</string>
@@ -1046,7 +1046,7 @@
     </dict>
     <dict>
       <key>name</key><string>punctuation.definition.variable.ruby</string>
-      <key>scope</key><string>punctuation.definition.variable.ruby variable.other.readwrite.instance.ruby</string>
+      <key>scope</key><string>punctuation.definition.variable.ruby, variable.other.readwrite.instance.ruby</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#EE0000</string>
@@ -1063,7 +1063,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.name.function.kotlin</string>
-      <key>scope</key><string>entity.name.function.kotlin entity.name.function.declaration.kotlin</string>
+      <key>scope</key><string>entity.name.function.kotlin, entity.name.function.declaration.kotlin</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#009900</string>
@@ -1071,7 +1071,7 @@
     </dict>
     <dict>
       <key>name</key><string>keyword.other.kotlin</string>
-      <key>scope</key><string>keyword.other.kotlin storage.type.kotlin</string>
+      <key>scope</key><string>keyword.other.kotlin, storage.type.kotlin</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00AA00</string>
@@ -1105,7 +1105,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.name.function.swift</string>
-      <key>scope</key><string>entity.name.function.swift support.function.swift</string>
+      <key>scope</key><string>entity.name.function.swift, support.function.swift</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#009900</string>
@@ -1113,7 +1113,7 @@
     </dict>
     <dict>
       <key>name</key><string>keyword.control.swift</string>
-      <key>scope</key><string>keyword.control.swift storage.type.swift</string>
+      <key>scope</key><string>keyword.control.swift, storage.type.swift</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00AA00</string>
@@ -1147,7 +1147,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.name.function.scala</string>
-      <key>scope</key><string>entity.name.function.scala entity.name.function.declaration.scala</string>
+      <key>scope</key><string>entity.name.function.scala, entity.name.function.declaration.scala</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#009900</string>
@@ -1173,7 +1173,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.name.function.haskell</string>
-      <key>scope</key><string>entity.name.function.haskell support.function.prelude.haskell</string>
+      <key>scope</key><string>entity.name.function.haskell, support.function.prelude.haskell</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#009900</string>
@@ -1207,7 +1207,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.name.function.elixir</string>
-      <key>scope</key><string>entity.name.function.elixir support.function.elixir</string>
+      <key>scope</key><string>entity.name.function.elixir, support.function.elixir</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#009900</string>
@@ -1265,7 +1265,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.name.function.dart</string>
-      <key>scope</key><string>entity.name.function.dart support.function.dart</string>
+      <key>scope</key><string>entity.name.function.dart, support.function.dart</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#009900</string>
@@ -1289,7 +1289,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.name.function.lua</string>
-      <key>scope</key><string>entity.name.function.lua support.function.lua</string>
+      <key>scope</key><string>entity.name.function.lua, support.function.lua</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#009900</string>
@@ -1314,7 +1314,7 @@
     </dict>
     <dict>
       <key>name</key><string>support.function.powershell</string>
-      <key>scope</key><string>support.function.powershell entity.name.function.powershell</string>
+      <key>scope</key><string>support.function.powershell, entity.name.function.powershell</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#009900</string>
@@ -1339,7 +1339,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.name.function.r</string>
-      <key>scope</key><string>entity.name.function.r support.function.r</string>
+      <key>scope</key><string>entity.name.function.r, support.function.r</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#009900</string>
@@ -1364,7 +1364,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.name.function.julia</string>
-      <key>scope</key><string>entity.name.function.julia support.function.julia</string>
+      <key>scope</key><string>entity.name.function.julia, support.function.julia</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#009900</string>
@@ -1389,7 +1389,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.name.function.objc</string>
-      <key>scope</key><string>entity.name.function.objc support.function.objc</string>
+      <key>scope</key><string>entity.name.function.objc, support.function.objc</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#009900</string>
@@ -1456,7 +1456,7 @@
     </dict>
     <dict>
       <key>name</key><string>keyword.operation.graphql</string>
-      <key>scope</key><string>keyword.operation.graphql keyword.type.graphql</string>
+      <key>scope</key><string>keyword.operation.graphql, keyword.type.graphql</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00AA00</string>
@@ -1506,7 +1506,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.name.resource.terraform</string>
-      <key>scope</key><string>entity.name.resource.terraform entity.name.type.terraform</string>
+      <key>scope</key><string>entity.name.resource.terraform, entity.name.type.terraform</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00DDFF</string>
@@ -1532,7 +1532,7 @@
     </dict>
     <dict>
       <key>name</key><string>keyword.control.latex</string>
-      <key>scope</key><string>keyword.control.latex support.function.latex</string>
+      <key>scope</key><string>keyword.control.latex, support.function.latex</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00AA00</string>
@@ -1599,7 +1599,7 @@
     </dict>
     <dict>
       <key>name</key><string>meta.embedded</string>
-      <key>scope</key><string>meta.embedded meta.embedded.block</string>
+      <key>scope</key><string>meta.embedded, meta.embedded.block</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#FFFFFF</string>
@@ -1615,7 +1615,7 @@
     </dict>
     <dict>
       <key>name</key><string>Storage modifier</string>
-      <key>scope</key><string>storage.modifier storage.modifier.access</string>
+      <key>scope</key><string>storage.modifier, storage.modifier.access</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#EE0000</string>
@@ -1753,7 +1753,7 @@
     </dict>
     <dict>
       <key>name</key><string>punctuation.section.embedded</string>
-      <key>scope</key><string>punctuation.section.embedded punctuation.section.interpolation</string>
+      <key>scope</key><string>punctuation.section.embedded, punctuation.section.interpolation</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#EE0000</string>
@@ -1761,7 +1761,7 @@
     </dict>
     <dict>
       <key>name</key><string>punctuation.definition.string.begin</string>
-      <key>scope</key><string>punctuation.definition.string.begin punctuation.definition.string.end</string>
+      <key>scope</key><string>punctuation.definition.string.begin, punctuation.definition.string.end</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#FFCC00</string>
@@ -1769,7 +1769,7 @@
     </dict>
     <dict>
       <key>name</key><string>support.class.component.react</string>
-      <key>scope</key><string>support.class.component.react support.class.component.vue</string>
+      <key>scope</key><string>support.class.component.react, support.class.component.vue</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00DDFF</string>
@@ -1794,7 +1794,7 @@
     </dict>
     <dict>
       <key>name</key><string>support.function.jest</string>
-      <key>scope</key><string>support.function.jest support.function.mocha</string>
+      <key>scope</key><string>support.function.jest, support.function.mocha</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#009900</string>
@@ -1802,7 +1802,7 @@
     </dict>
     <dict>
       <key>name</key><string>entity.name.function.test</string>
-      <key>scope</key><string>entity.name.function.test entity.name.function.spec</string>
+      <key>scope</key><string>entity.name.function.test, entity.name.function.spec</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#009900</string>
@@ -1850,7 +1850,7 @@
     </dict>
     <dict>
       <key>name</key><string>storage.type.function.arrow</string>
-      <key>scope</key><string>storage.type.function.arrow storage.type.function.lambda</string>
+      <key>scope</key><string>storage.type.function.arrow, storage.type.function.lambda</string>
       <key>settings</key>
       <dict>
         <key>foreground</key><string>#00CCEE</string>
@@ -2187,6 +2187,6 @@
       </dict>
     </dict>
   </array>
-  <key>uuid</key><string>abcfa409-6197-4282-9387-bf0d3279dbb2</string>
+  <key>uuid</key><string>21771342-34c6-4a2c-8235-98a39e3b9ff4</string>
 </dict>
 </plist>

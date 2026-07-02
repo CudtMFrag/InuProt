@@ -130,7 +130,11 @@ def build_global(colors):
 
 
 def build_rule(scope, settings):
-    scope_str = scope if isinstance(scope, str) else " ".join(scope)
+    # TextMate scope selectors use spaces for hierarchical nesting (a inside b)
+    # and COMMAS to separate alternative selectors (== OR). VS Code's
+    # tokenColors represents alternatives as a list; join with ", " so Sublime
+    # / TextMate reads them as alternatives, not nesting.
+    scope_str = scope if isinstance(scope, str) else ", ".join(scope)
     out = ['    <dict>\n']
     out.append(f'      <key>name</key><string>{esc(scope_name(scope))}</string>\n')
     out.append(f'      <key>scope</key><string>{esc(scope_str)}</string>\n')

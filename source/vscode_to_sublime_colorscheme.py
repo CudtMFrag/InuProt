@@ -78,7 +78,12 @@ def convert(in_path: Path, out_path: Path):
         if key in seen:
             continue
         seen.add(key)
-        scope_str = sc if isinstance(sc, str) else " ".join(sc)
+        # Sublime/TextMate scope selectors use COMMA to separate alternative
+        # scopes (==  OR semantics). VS Code's tokenColors uses a list for the
+        # same purpose. join with ", " — NOT a space, because a space in a
+        # Sublime selector means nested hierarchy (a inside b), which would
+        # make these rules almost never match.
+        scope_str = sc if isinstance(sc, str) else ", ".join(sc)
         st = r.get("settings", {})
         rule = {"scope": scope_str}
         if st.get("foreground"):
