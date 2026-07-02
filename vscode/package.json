@@ -1,7 +1,7 @@
 {
   "name": "inuprot",
   "displayName": "InuProt",
-  "description": "InuProt — a two-variant theme pairing a deep-green-dark high-contrast editor (forked from Human Theme) with a soft-green-tinted light theme (forked from VS Code 2026 Light).",
+  "description": "InuProt — a two-variant theme pairing a deep-green-dark high-contrast editor (forked from Human Theme) with a soft-green-tinted light theme (forked from GitHub Light Colorblind Beta).",
   "version": "1.0.0",
   "publisher": "CudtMFrag",
   "license": "MIT",

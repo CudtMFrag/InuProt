@@ -60,7 +60,7 @@ def convert(in_path: Path, out_path: Path):
 
     scheme = {
         "name": data.get("name", "InuProt"),
-        "author": "CudtMFrag (InuProt), derived from Human Theme (Tom Hall) and VS Code 2026 Light.",
+        "author": "CudtMFrag (InuProt), derived from Human Theme (Tom Hall) and GitHub Light Colorblind Beta (Primer / GitHub).",
         "variables": {},
         "globals": {},
         "rules": [],

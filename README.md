@@ -33,7 +33,7 @@ accessibility, high contrast, VS Code theme, Sublime Text color scheme.
 | Variant        | Surface       | Origins                                                            |
 |----------------|---------------|-------------------------------------------------------------------|
 | **InuProt Dark**  | black + ink-green   | Forked from [Human High Contrast](https://github.com/tom-f-hall/human-theme-vscode) by Tom Hall, with the green ramp dimmed for better separation from the orange control-flow / string color. |
-| **InuProt Light** | soft green tint     | Forked from VS Code's built-in **2026 Light** theme (MIT, `microsoft/vscode`), with the editor surface retinted to `#edf3eb` and chrome to `#e6eee4`; the upstream syntax palette is inherited unchanged from the `light_modern → light_plus → light_vs` include chain. |
+| **InuProt Light** | soft green tint     | Forked from **GitHub Light Colorblind (Beta)** (`primer/github-vscode-theme`, MIT), with the editor surface retinted to `#edf3eb` and chrome to `#e6eee4`; syntax token colors are inherited unchanged (the upstream theme is already tuned for colorblind accessibility). |
 
 > **About the name.** *Prot* stands for **Protanomaly** (red-weak color
 > vision deficiency). People with protanomaly — and the more general category
