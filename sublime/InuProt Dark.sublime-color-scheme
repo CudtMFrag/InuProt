@@ -11,6 +11,7 @@
     "highlight": "#223344",
     "find_highlight": "#FFFF00",
     "find_highlight_inactive": "#AAAA00",
+    "line_highlight": "#181818",
     "gutter_foreground": "#666666",
     "gutter_foreground_highlight": "#BBBBBB",
     "guide": "#101010",

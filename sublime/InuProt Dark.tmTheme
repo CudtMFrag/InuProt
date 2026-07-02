@@ -24,6 +24,8 @@
         <string>#FFFF00</string>
         <key>highlightInactive</key>
         <string>#AAAA00</string>
+        <key>lineHighlight</key>
+        <string>#181818</string>
         <key>bracketsForeground</key>
         <string>#202020</string>
         <key>gutterForeground</key>
@@ -2891,6 +2893,6 @@
       </dict>
     </dict>
   </array>
-  <key>uuid</key><string>92157a62-ce67-4834-bd6e-1eb240fea335</string>
+  <key>uuid</key><string>93d54d90-c745-4d98-8641-a694b79e9af3</string>
 </dict>
 </plist>
