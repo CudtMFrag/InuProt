@@ -5,8 +5,6 @@ out/
 __pycache__/
 *.pyc
 
-# keep preview HTMLs out (they're generated), but commit PNGs + sample.
-previews/*.html
 
 # editor
 .vscode/
