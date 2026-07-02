@@ -80,6 +80,21 @@ still read cleanly on the green chrome.
 
 ---
 
+## Previews
+
+Two screenshots live in [`previews/`](previews/) showing how the green keyword
+color separates from the orange control-flow & string color:
+
+| InuProt Dark | InuProt Light |
+|--------------|---------------|
+| ![InuProt Dark](previews/inuprot-dark.png) | ![InuProt Light](previews/inuprot-light.png) |
+
+> These were rendered from a hand-annotated code snippet using the actual
+> InuProt token colors. To capture your own: open
+> [`previews/inuprot-preview-sample.ts`](previews/inuprot-preview-sample.ts) in
+> VS Code with the theme active and screenshot the editor — drop the PNGs back
+> into `previews/` (same filenames) and re-commit.
+
 ## Install
 
 ### Visual Studio Code
