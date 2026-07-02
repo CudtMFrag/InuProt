@@ -8,8 +8,17 @@ A two-variant colour scheme pack, published for **Visual Studio Code** and
 | **InuProt Dark**  | black + ink-green   | Forked from [Human High Contrast](https://github.com/tom-f-hall/human-theme-vscode) by Tom Hall, with the green ramp dimmed for better separation from the orange control-flow / string color. |
 | **InuProt Light** | soft green tint     | Forked from VS Code's built-in **2026 Light** theme (MIT, `microsoft/vscode`), with the editor surface retinted to `#edf3eb` and chrome to `#e6eee4`; the upstream syntax palette is inherited unchanged from the `light_modern → light_plus → light_vs` include chain. |
 
-> The name InuProt is a small play on *Inu* (犬, dog) + *Prot* (protection /
-> protocol). It is unrelated to any existing project.
+> **About the name.** *Prot* stands for **Protanomaly** (red-weak color
+> vision deficiency). People with protanomaly — and the more general category
+> of deuteranomaly / red-green color blindness — have trouble distinguishing
+> green from orange/red. Two of the most important colors in almost every code
+> syntax theme are *green* (keywords) and *orange/yellow* (control-flow +
+> strings + numbers). When those two sit close together in hue and luminance,
+> they merge for protanopic readers. InuProt exists specifically to separate
+> them: the Dark variant dims the green ramp away from the orange, and the
+> Light variant uses a soft green-tinted chrome that stays distinguishable.
+> The accompanying *Inu* prefix is the Japanese 犬 ("dog") — a small nod to
+> its🐾 pedigree (an Inu watches over what it keeps close).
 
 ---
 
