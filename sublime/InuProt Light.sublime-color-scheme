@@ -6,6 +6,8 @@
     "background": "#EDF3EB",
     "foreground": "#24292F",
     "caret": "#0969DA",
+    "selection": "#C7D9CF",
+    "selection_inactive": "#DFE9E1",
     "highlight": "#54AEFF",
     "find_highlight": "#BF8700",
     "find_highlight_inactive": "#FAE17D",

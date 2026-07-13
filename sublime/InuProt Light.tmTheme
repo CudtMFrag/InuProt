@@ -14,6 +14,10 @@
         <string>#24292F</string>
         <key>caret</key>
         <string>#0969DA</string>
+        <key>selection</key>
+        <string>#C7D9CF</string>
+        <key>selectionInactive</key>
+        <string>#DFE9E1</string>
         <key>highlight</key>
         <string>#54AEFF</string>
         <key>findHighlight</key>

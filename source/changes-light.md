@@ -44,6 +44,10 @@ as upstream designed them for colorblind accessibility.
 | `welcomePage.buttonHoverBackground`| `#f3f4f6`      | `#dfe7dd`       |
 | `button.secondaryBackground`      | `#ebecf0`       | `#e6eee4`       |
 
+## Selection color tuned for the light background
+
+The light theme uses a muted sage selection background (#C7D9CF, inactive #DFE9E1) so selected code remains clear without the saturated blue accent.
+
 ## Unchanged
 
 - All syntax `tokenColors` inherited verbatim from GitHub Light Colorblind.
