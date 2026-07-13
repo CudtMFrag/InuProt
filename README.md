@@ -95,7 +95,7 @@ theme active, screenshot, and replace the PNGs.
 ### Visual Studio Code
 
 ```bash
-code --install-extension ./vscode/inuprot-1.0.4.vsix
+code --install-extension ./vscode/inuprot-1.0.5.vsix
 ```
 
 Or use the Command Palette → **Preferences: Color Theme** → **InuProt Dark**
