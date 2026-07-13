@@ -2,7 +2,7 @@
   "name": "inuprot",
   "displayName": "InuProt",
   "description": "InuProt — a two-variant theme pairing a deep-green-dark high-contrast editor (forked from Human Theme) with a soft-green-tinted light theme (forked from GitHub Light Colorblind Beta).",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "publisher": "CudtMFrag",
   "license": "MIT",
   "repository": {
