@@ -119,6 +119,41 @@ Then in `Preferences.sublime-settings`:
 }
 ```
 
+#### Simplified Chinese glyphs / 简体中文字形
+
+InuProt controls colours and bold/italic styles; the editor font is configured
+separately in Sublime Text's
+[user preferences](https://www.sublimetext.com/docs/font.html).
+On Windows, the default editor font is Consolas, which lacks Chinese glyphs.
+Chinese text therefore uses a fallback font, whose regional glyph shapes may
+differ from the Simplified Chinese forms you expect. Changing the colour scheme
+does not select a Chinese font.
+
+For Simplified Chinese text and comments, install
+[Sarasa Gothic](https://github.com/be5invis/Sarasa-Gothic)'s **Sarasa Fixed SC**
+family, then merge these entries into your existing `Preferences.sublime-settings`:
+
+```json
+{
+  "font_face": "Sarasa Fixed SC",
+  "font_size": 11
+}
+```
+
+`SC` selects Simplified Chinese regional glyphs. This font setting also changes
+Latin letters and digits; adjust the font size to taste. The font is a separate
+installation and is not bundled with InuProt.
+
+A [complete example](sublime/examples/Preferences.sublime-settings) combines this
+font with automatic switching between InuProt Dark and Light. Merge only the
+settings you want into your existing preferences; do not replace the whole file.
+Keep the colour scheme files in `Packages/User` as described above.
+
+中文正文或注释出现日文、繁中地区字形时，可先检查编辑字体及其回退字体。
+安装更纱字体的 **Sarasa Fixed SC**（简中字形）后，在用户设置中加入上述
+`font_face`，即可让该字体覆盖的汉字直接使用简中字形。此设置也会更换英文
+和数字字体；它独立于 InuProt 配色，不会修改正文内容或执行简繁转换。
+
 ---
 
 ## Project layout
@@ -135,7 +170,9 @@ InuProt/
 │   ├── InuProt Dark.sublime-color-scheme   # modern format (preferred)
 │   ├── InuProt Light.sublime-color-scheme
 │   ├── InuProt Dark.tmTheme                # legacy TextMate format
-│   └── InuProt Light.tmTheme
+│   ├── InuProt Light.tmTheme
+│   └── examples/
+│       └── Preferences.sublime-settings # optional Simplified Chinese font setup
 └── source/                 # build scripts
     ├── vscode_to_tmtheme.py
     └── vscode_to_sublime_colorscheme.py
